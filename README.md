@@ -157,7 +157,7 @@ And let us know. Prefix the commands with sudo if you are using a user (non-root
   pacman-key --init
   pacman-key --populate archlinux
   ```
-如果还没有解决，看一下是不是配置了archlinuxcn源，可能没有安装 archlinuxcn的keyring
+如果还没有解决，看一下是不是配置了archlinuxcn源，可能没有导入 archlinuxcn的GPG key
 
 `pacman -Sy archlinuxcn-keyring`
 
